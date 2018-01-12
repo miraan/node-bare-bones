@@ -1,0 +1,28 @@
+{
+  "name": "gdax-trader",
+  "version": "1.0.0",
+  "description": "GDAX Automatic Trader",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=\"gdax-trader:*\" node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miraan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "flow-bin": "^0.63.1",
+    "gdax": "^0.5.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-flowtype": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "lodash": "^4.17.4"
+  }
+}
